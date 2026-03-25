@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(154, 149, 149);
+
+}
+
+textarea{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #848383;
+    font-size: 14px;
+}
+
+.Box{
+  display: flex;
+  width: 300px;  
+  padding: 20px; ;
+  background-color: #575656;
+  border-radius:12px ;
+
+}
