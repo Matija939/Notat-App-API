@@ -1,23 +1,47 @@
 body{
-    background-color: rgb(154, 149, 149);
-
+    background-color: rgb(255, 251, 251);
+   
+    justify-content: center;
 }
 
 textarea{
-    display: flex;
-    width: 250px;
-    height: 100px;
+    display:flex;
+    width: 150px;
+    height: 20px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #848383;
+    border: 1px solid #c8c8c8;
     font-size: 14px;
+    justify-content: space-between;
+    resize: none;
+
+
+
 }
 
 .Box{
+  padding-top: 0%;
+  align-items: flex-start;
+  justify-content: flex-start;
   display: flex;
-  width: 300px;  
-  padding: 20px; ;
-  background-color: #575656;
-  border-radius:12px ;
-
+  width: 250px;  
+  padding: 100px; 
+  background-color: #dddcdc;
+  border-radius: 20px;
+  box-shadow: black
+  
+  
 }
+
+
+h1{
+    
+    text-align: center;
+    
+}   
+p{
+
+  text-align: center;
+    
+}
+
