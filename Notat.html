@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-   <link rel="stylesheet" href="style.css"> 
+<html lang="no">
 <head>
-     <h1>Notatapp</h1>
- 
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <title> Notat-app</title>
-
-  
+<meta charset="UTF-8">
+<title>Notatapp</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="Box">
-    
-    <p>legg til en ny notat</p>
-    
-    <textarea  type="text" placeholder="skriv her"></textarea>
-    
-     </div> 
-     <div class="box"
-      ><textarea type="text" placeholder="skriv her"></textarea>
-    </body>
+
+
+<h1>Notatapp</h1>
+
+<h2>Lage ny liste</h2>
+
+<div class="box">
+<button onclick="opprettNotat()">opprett notat</button>
+<button onclick="opprettListe()">opprett to do liste</button>
+</div>
+
+
+<div id="notatBox" style="display:none;">
+<textarea id="notatTekst" placeholder="Skriv notat..."></textarea>
+<button onclick="lagreNotat()">Lagre</button>
+</div>
+
+
+<div id="listeBox" style="display:none;">
+  <h3>To do liste</h3>
+
+  <input type="text" id="todoTittel" placeholder="Tittel">
+
+  <div id="tasks"></div>
+
+  <input type="text" id="nyOppgave" placeholder="Ny oppgave">
+  <button onclick="leggTilOppgave()">Legg til</button>
+
+  <br><br>
+  <button onclick="lagreListe()">Lagre liste</button>
+</div>
+
+<h2>Dine notater:</h2>
+<div id="notater"></div>
+
+<script src="java.js"></script>
+
+</body>
 </html>
+
+
+
+
