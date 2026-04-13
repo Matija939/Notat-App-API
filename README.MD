@@ -1,0 +1,2 @@
+min løsning til på kodingen er at når brukeren skal trykke på for eks legg til notat med ulike tekts skal da ene funksjonen som ligger java som skal være koblet skal lagre inni databasen og skal være lagret der jeg fikk ikke det til samtidig jeg skulle legge at brukeren kan hente koden fra data basen.
+jeg fikk ikke instalere serveren i i koden men for å koble de sammen må man ta IP fra serveren å legge den inn med en funksjon som skal jobbe sammen med den.
